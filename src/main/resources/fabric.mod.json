@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "template",
+	"id": "desolatestorage",
 	"version": "${version}",
-	"name": "Template mod",
+	"name": "Desolate Storage",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"devOS: Sanity Edition",
@@ -10,21 +10,22 @@
 	],
 	"contact": {
 		"homepage": "https://devos.one/",
-		"sources": "https://github.com/devOS-Sanity-Edition/fabric-nautical-template"
+		"sources": "https://github.com/devOS-Sanity-Edition/DesolateStorage",
+		"issues": "https://github.com/devOS-Sanity-Edition/DesolateStorage/issues"
 	},
 	"license": "MIT",
-	"icon": "assets/template/icon.png",
+	"icon": "assets/desolatestorage/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"one.devos.nautical.template.TemplateMod"
+			"one.devos.nautical.desolatestorage.DesolateStorage"
 		],
 		"client": [
-			"one.devos.nautical.template.client.TemplateModClient"
+			"one.devos.nautical.desolatestorage.client.DesolateStorageClient"
 		]
 	},
 	"mixins": [
-		"template.mixins.json"
+		"desolatestorage.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.10",

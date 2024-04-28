@@ -1,2 +1,4 @@
-# Fabric Nautical Template
-Team Nautical's take on the Fabric Example Mod
+# Desolate Storage
+another storage mod?
+
+TODO: work on readme
